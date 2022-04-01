@@ -1,0 +1,156 @@
+/*
+
+Priorities: #.<> id-class-tag
+Enumerations: ,
+Imbrications: .
+
+Ctrl+? activer/d/sactiver des commentaires
+
+Les named items sont comme des identifiants
+dans les tableaux associatifs (ex.: 
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+h3,
+h4,
+h5 {
+  color: aliceblue;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Couleur de fond */
+  background-color: black;
+}
+
+footer p {
+  padding: 20px;
+  color: aliceblue;
+}
+
+nav {
+  display: flex;
+
+  /* Remplir le frame nav */
+  height: 60px;
+  width: 100%;
+
+  /* Séparer le logo des items au menu */
+  justify-content: space-between;
+
+  /* Centrer les items verticalement */
+  align-items: center;
+
+  /* Couleur de fond */
+  background-color: black;
+}
+
+a {
+  /* Liens sans soulignements ni changements de couleurs*/
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  /* Pas de puces pour cette liste */
+  list-style-type: none;
+}
+
+li {
+  /* Afficher la liste horizontalement */
+  display: inline;
+  /* Espacement entre les items du menu (nav, en haut à droite) */
+  margin-right: 20px;
+}
+
+label {
+  display: inline;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+.cafe1 {
+  height: 80vh;
+  background-image: url("images/cafe1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenu1 {
+  width: 600px;
+  text-align: center;
+}
+
+.cafe2 {
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenu2 {
+  display: inline-flex;
+  width: 600px;
+  text-align: left;
+}
+.contenu2 h3,
+.contenu2 h4,
+.contenu2 h5 {
+  color: black;
+  margin-left: 20px;
+}
+
+.cafe3 {
+  height: 80vh;
+  background-image: url("images/cafe3.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenu3 {
+  width: 600px;
+}
+
+#Montreal_metro_map {
+  width: 300px;
+  border-style: solid;
+  border-color: bisque;
+  border-width: 2px;
+}
+
+input,
+textarea {
+  max-width: 260px;
+  min-width: 260px;
+}
+
+.btns {
+  color: aliceblue;
+  background-color: black;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+}
+.btnWhite {
+  color: black;
+  background-color: aliceblue;
+}

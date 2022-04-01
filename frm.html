@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- Transparence:
+ !-- CSS-01_a_03 - CSS-03
+ !--
+ !-- Structure des pages html:
+ !-- JavaScriptExe02 
+ !-- LAB04_Les_bases_du_CSS_2 
+ !-- ...\PRATIC\420-1B3-GG JAVASCRIPT\Exe SetFrame Frame Frame\Prof
+ !--
+ !-- À revisiter:
+ !-- LAB03_Les_bases_du_CSS   -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZEN Café</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>
+          <a href="ndx.html">&nbsp;&nbsp;ZEN CAFÉ</a>
+        </h1>
+        <ul>
+          <li>
+            <a class="active" href="ndx.html">Acceuil</a>
+          </li>
+          <li>
+            <a href="loc.html" target="loc">Nous trouver</a>
+          </li>
+          <li>
+            <a href="frm.html" target="loc">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="cafe3">
+      <div class="contenu3">
+        <h3>Une question? Contactez-nous</h3>
+        <form action="" method="post" id="formSoum">
+          <div>
+            <label for="nom">Nom complet</label><br />
+            <input type="text" id="nom" name="nom" value="&nbsp;" />
+          </div>
+          <div>
+            <label for="email">Courriel</label><br />
+            <input type="email" id="email" name="email" value="" />
+          </div>
+          <div>
+            <label for="question">Question:</label><br />
+            <textarea id="question" name="question"></textarea>
+          </div>
+          <div>
+            <button class="btns" type="submit" id="soumission">
+              Soumettre
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <p>Copyright © ZEN Café, 2022</p>
+    </footer>
+  </body>
+  <script src="./prc.js"></script>
+</html>
